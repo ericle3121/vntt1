@@ -43,8 +43,9 @@ p {
   margin: 5% 3% 5% 0;
 }
 .title-image{
-  width: 70%;
+  width: 100%;
   border-radius: 80%;
+  text-align: center;
 }
 
 #features{
