@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="css/fontawesome-free-5.9.0-web/fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
-
+  <!--load all styles -->
+  <script src="https://kit.fontawesome.com/5fe3cacdf8.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -34,10 +34,7 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href=""><i class="fas fa-table-tennis"></i> Event</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href=""><i class="fas fa-table-tennis"></i> Tournament</a>
+              <a class="nav-link" href=""><i class="fas fa-table-tennis"></i> Event & Tournament</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href=""><i class="fas fa-table-tennis"></i> Gallery</a>
@@ -54,30 +51,47 @@
       <!-- Title -->
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h1>Meet friends and have fun.</h1>
           <button type="button" class="btn btn-dark bnt-large download-button"><i class="fas fa-table-tennis"></i> Download</button>
           <button type="button" class="btn btn-outline-light bnt-large download-button"><i class="fas fa-table-tennis"></i> Download</button>
         </div>
-        <div class="col-md-6">
-          <img class="title-image"src="images/main.jpg" alt="iphone-mockup">
+        <div class="col-lg-6">
+          <img class="title-image" src="images/main.jpg" alt="iphone-mockup">
         </div>
       </div>
+    </div>
   </section>
 
 
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="features-box col-lg-4 ">
+        <i class="icon fas fa-table-tennis fa-4x"></i>
+        <h3>Practice and improve</h3>
+        <p>Find partners and play with different styles.</p>
+        <img class="features-image" src="images/fi1.jpg" alt="fi-1">
+      </div>
+      <div class="features-box col-lg-4">
+        <i class="icon fas fa-glass-cheers fa-4x"></i>
+        <h3>Meet to relax</h3>
+        <p>Share the story and have good time with friends.</p>
+        <img class="features-image" src="images/fi2.jpg" alt="fi-1">
+      </div>
+      <div class="features-box col-lg-4">
+        <i class="icon fas fa-trophy fa-4x"></i>
+        <h3>Fight to win</h3>
+        <p>Keep up the hobby and become the winner.</p>
+        <img class="features-image" src="images/fi3.jpg" alt="fi-1">
+      </div>
+    </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+
+
 
   </section>
 
@@ -86,9 +100,53 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>July 13, Nha Tho La Vang Tournament</h2>
+          <img class="testimonial-image" src="images/e2.jpg" alt="dog-profile">
+          <em>Players : Phuc 2200, Bao 1800, Arman 1950,...,</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">July 2 2019, Vietnamese Mini Team Tournament.</h2>
+          <img class="testimonial-image" src="images/e1.jpg" alt="lady-profile">
+          <p></p>
+          <em>First Prize: 5 boxes of balls</em>
+          <p></p>
+          <em>Second Prize: 3 boxes of balls</em>
+          <p></p>
+          <em>Third Prize: 1 boxes of balls</em>
+
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">June 22 2019, HITTA Team Tournament.</h2>
+          <img class="testimonial-image" src="images/e1.jpg" alt="lady-profile">
+          <p></p>
+          <em>Semifinalist : Team Don, Tho, Hieu</em>
+          <p></p>
+          <em>Semifinalist : Team Thang, Nghia, Quang</em>
+          <p></p>
+          <em>Quatterfinalist : Team Khoa, Jason, Tim</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">April 25 2019, Vietnamese Team Tournament.</h2>
+          <img class="testimonial-image" src="images/e3.jpg" alt="lady-profile">
+          <p></p>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
