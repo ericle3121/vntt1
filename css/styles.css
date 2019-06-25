@@ -82,3 +82,12 @@ p {
   border-radius: 100%;
   margin: 20px;
 }
+
+.gallery-image{
+  width: 70%;
+  text-align: center;
+}
+.gallery-image:hover{
+  width: 150%;
+  color: #ff4c68;
+}
